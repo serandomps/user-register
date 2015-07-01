@@ -16,20 +16,6 @@ module.exports = function (sanbox, fn, options) {
 };
 
 var user;
-
-serand.on('boot', 'init', function () {
-    /*$.ajax({
-     url: '/apis/user',
-     contentType: 'application/json',
-     dataType: 'json',
-     success: function (data) {
-     serand.emit('user', 'login', data);
-     },
-     error: function () {
-     serand.emit('user', 'error');
-     }
-     });*/
-});
 /*
 
  setTimeout(function () {
